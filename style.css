@@ -886,6 +886,8 @@ section .container {
     align-items: flex-start;
     gap: 1rem;
 }
+/* hhhhhhh */
+
 
 .ca{
     margin-top: 100px; 
@@ -1073,7 +1075,7 @@ a {
 
 
 
-
+/* what wedo */
 
 
 
@@ -1099,10 +1101,14 @@ a {
   }
   
   .intros p {
-    font-size: 18px;
+    /* font-size: 18px;
     line-height: 24px;
     max-width: 800px;
+    margin: 0 auto; */
     margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 900px;
   }
   
   .expertise, .apart, .client-feedback, .mission {
@@ -1128,9 +1134,9 @@ a {
   
   .expertise ol li, .apart ul li {
     margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 24px;
     color: #333;
+    font-size: 1em;
+    line-height: 1.5;
   }
   
   .expertise ol li strong, .apart ul li strong {
@@ -1184,6 +1190,138 @@ a {
   
     .intros p, .expertise ol li, .apart ul li, .mission p {
         font-size: 1em;
+    }
+  }
+
+
+  /* .c{
+    margin-top: 100px; 
+    
+} */
+  
+/* thee other section  */
+
+  
+  .c{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 100px; 
+  }
+  
+ .c .renovation, .c .interior, .c .construction, .c .landscaping, .c .architectural {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 5px;
+  }
+  
+ .c h1{
+     text-align: center;
+    font-size: 2.5em;
+    color: #f16565;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .c h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #4a4849;
+  }
+
+  .c p{
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 900px;
+    font-weight: 400;
+  }
+  
+  .c .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-height: 800px;
+  }
+  
+ .c  .text-content {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+    margin-bottom: 100px;
+  }
+
+  
+ .c .image-content img {
+    width: 100%;
+    max-width: 700px;
+    max-height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: -30px;
+  }
+  
+  .c .image-content img:hover {
+    transform: scale(1.05);
+  }
+  
+ .c .services {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .c .services ul, .services ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+ .c .services li {
+    padding: 10px 0;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+ .c .services li strong {
+    color:  #f16565;
+  }
+  
+  .construction strong{
+    color:  #f16565;
+  }
+  .construction .op{
+    text-align: center;
+    font-size: 1.5em;
+    color: #4a4849;
+  }
+  .construction .container{
+    padding-top: 0px;
+  }
+  .construction .text-content{
+    margin-left: -30px;
+  }
+  .construction p{
+    margin-top: -30px;
+  }
+  .c .closing {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+   .c .container {
+        flex-direction: column;
+    }
+  
+   .c .text-content, .c .image-content {
+        min-width: 100%;
     }
   }
   
